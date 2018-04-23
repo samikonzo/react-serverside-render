@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.less'
 
 const App = () => {return (<div> bebebe </div>)}
 

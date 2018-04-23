@@ -28,7 +28,18 @@ module.exports = {
 			{
 				test: /\.jsx$/,
 				loader: 'babel-loader'
+			},
+
+			{
+				test:/\.less$/,
+				use: [
+					'style-loader',
+					'css-loader',
+					'less-loader',
+				]
 			}
+
+
 		]
 	}
 }
